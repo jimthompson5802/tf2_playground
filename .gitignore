@@ -1,3 +1,8 @@
+# ignore these artifacts
 .idea
 .ipynb_checkpoints
 saved_model
+*.png
+
+# exceptions
+!optimizers/images
