@@ -21,7 +21,7 @@ Contour plot
 
 ![Simple Example Loss Contour Plot](./images/simple/contour_plot.png)
 
-Comparision of TF Optimizers on the Simple Loss Example
+Comparision of TF Optimizers on the Simple Loss Example (Note: red "X" indicates estimated location for minimum loss.)
 
 ![Simple Example Optimizer Behavior](./images/simple/optimizer_plots.png)
 
@@ -35,7 +35,7 @@ Contour plot
 
 ![Complex Example Loss Contour Plot](./images/multi-modal/contour_plot.png)
 
-Comparision of TF Optimizers on the Complex Loss Example
+Comparision of TF Optimizers on the Complex Loss Example (Note: red "X" indicates estimated location with minimum loss.)
 
 ![Complex Example Optimizer Behavior](./images/multi-modal/optimizer_plots.png)
 
