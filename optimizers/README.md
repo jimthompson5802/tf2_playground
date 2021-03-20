@@ -4,6 +4,14 @@ Work inspired by J. Brownlee's [blog posting](https://machinelearningmastery.com
 
 Notebook `optimizer_playground.ipynb` provides a means to see how TF's different optimizers behave.  It should be noted the "loss values" generated in the notebook are for demonstration purposes only and not intended portray actual loss values encountered during deep neural network training.
 
+Tensorflow Keras Optimizers tested:
+* `tf.keras.optimizers.SGD`
+* `tf.keras.optimizers.Adam`
+* `tf.keras.optimizers.Nadam`
+* `tf.keras.optimizers.RMSprop`
+* `tf.keras.optimizers.Adagrad`
+* `tf.keras.optimizers.Adadelta`
+
 ## Simple Loss Example
 Illustrative Loss Surface
 
