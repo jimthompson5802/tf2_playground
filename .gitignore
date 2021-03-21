@@ -5,4 +5,4 @@ saved_model
 *.png
 
 # exceptions
-!optimizers/images
+!optimizers/images/*/*.png
