@@ -12,22 +12,37 @@ Tensorflow Keras Optimizers tested:
 * `tf.keras.optimizers.Adagrad`
 * `tf.keras.optimizers.Adadelta`
 
-## Simple Loss Example
-Illustrative Loss Surface
+## Bowl Loss Example
+Illustrative Convex Loss Surface - Shaped as a bowl
 
-![Simple Example Loss Surface](./images/simple/surface_plot.png)
+![Simple Example Loss Surface](./images/bowl/surface_plot.png)
 
 Contour plot
 
-![Simple Example Loss Contour Plot](./images/simple/contour_plot.png)
+![Simple Example Loss Contour Plot](./images/bowl/contour_plot.png)
 
-Comparision of TF Optimizers on the Simple Loss Example (Note: red "X" indicates estimated location for minimum loss.)
+Comparison of TF Optimizers on the Simple Loss Example (Note: red "X" indicates estimated location for minimum loss.)
 
-![Simple Example Optimizer Behavior](./images/simple/optimizer_plots.png)
+![Simple Example Optimizer Behavior](./images/bowl/optimizer_plots.png)
 
 
-## More Complex Loss Example
-Illustrative Loss Surface
+## Valley Loss Example
+Illustrative Convex Loss Surface - Shaped as a valley
+
+![Simple Example Loss Surface](./images/valley/surface_plot.png)
+
+Contour plot
+
+![Simple Example Loss Contour Plot](./images/valley/contour_plot.png)
+
+Comparison of TF Optimizers on the Simple Loss Example (Note: red "X" indicates estimated location for minimum loss.)
+
+![Simple Example Optimizer Behavior](./images/valley/optimizer_plots.png)
+
+
+
+## Non-Convex Loss Example
+Complex Loss Surface - multiple min and max points
 
 ![Complex Example Loss Surface](./images/multi-modal/surface_plot.png)
 
@@ -35,7 +50,20 @@ Contour plot
 
 ![Complex Example Loss Contour Plot](./images/multi-modal/contour_plot.png)
 
-Comparision of TF Optimizers on the Complex Loss Example (Note: red "X" indicates estimated location with minimum loss.)
+Comparison of TF Optimizers on the Complex Loss Example (Note: red "X" indicates estimated location with minimum loss.)
 
 ![Complex Example Optimizer Behavior](./images/multi-modal/optimizer_plots.png)
 
+
+## Another Non-Convex Loss Example
+
+Comparison of TF Optimizers on the Complex Loss Example (Note: red "X" indicates estimated location with minimum loss.)
+
+![Complex Example Optimizer Behavior](./images/multi-modal2/optimizer_plots.png)
+
+
+## Extreme Loss Example - Initial Point is Local Maximum
+
+Comparison of TF Optimizers on the Complex Loss Example (Note: red "X" indicates estimated location with minimum loss.)
+
+![Complex Example Optimizer Behavior](./images/multi-modal3/optimizer_plots.png)
