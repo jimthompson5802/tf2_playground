@@ -67,3 +67,17 @@ Comparison of TF Optimizers on the Complex Loss Example (Note: red "X" indicates
 Comparison of TF Optimizers on the Complex Loss Example (Note: red "X" indicates estimated location with minimum loss.)
 
 ![Complex Example Optimizer Behavior](./images/multi-modal3/optimizer_plots.png)
+
+
+## Large Learning Rate Example
+Illustrative Convex Loss Surface - Shaped as a bowl with a large learning rate
+
+![Simple Example Loss Surface](./images/large-lr/surface_plot.png)
+
+Contour plot
+
+![Simple Example Loss Contour Plot](./images/large-lr/contour_plot.png)
+
+Comparison of TF Optimizers on the Simple Loss Example (Note: red "X" indicates estimated location for minimum loss.)
+
+![Simple Example Optimizer Behavior](./images/large-lr/optimizer_plots.png)
